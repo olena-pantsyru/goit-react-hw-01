@@ -1,0 +1,26 @@
+.friendList {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    border-top: none;
+}
+
+.friendCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+
+}
+
+.friendCard img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+}
